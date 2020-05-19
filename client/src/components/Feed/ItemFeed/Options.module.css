@@ -1,0 +1,71 @@
+.options {
+  display: flex;
+  cursor: pointer;
+}
+
+.options_redact {
+  width: 320px;
+  height: 35px;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.options_remove {
+  width: 320px;
+  height: 35px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.options_back {
+  background: green;
+  height: 70px;
+  width: 30px;
+}
+
+.redact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 35px;
+  background: red;
+}
+
+.redact_date {
+  margin-right: 10px;
+}
+
+.redact_distance {
+  margin-right: 10px;
+}
+
+.redact_button {
+  border: 1px solid white;
+}
+
+.remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 35px;
+  background: black;
+  cursor: default;
+}
+
+.remove_button {
+  padding: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.error {
+  background: red;
+  font-size: 10px;
+  margin: 0px;
+}

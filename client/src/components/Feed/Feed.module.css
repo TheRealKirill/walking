@@ -1,0 +1,49 @@
+.feed {
+  width: 350px;
+  height: 600px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+  color: white;
+}
+
+.header {
+  display: flex;
+  background: black;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.header_item {
+  display: flex;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.header_item_button {
+  height: 23px;
+  width: 23px;
+  border-radius: 20%;
+  margin-left: 10px;
+  background: red;
+  cursor: pointer;
+}
+
+.body {
+  height: 490px;
+  overflow-y: auto;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: red;
+  height: 70px;
+  font-size: 20px;
+  cursor: pointer;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
